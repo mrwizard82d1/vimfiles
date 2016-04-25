@@ -1,2 +1,2 @@
 # vimfiles
-My vim configuration
+My vim configuration.
