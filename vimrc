@@ -5,7 +5,7 @@ set backspace=indent,eol,start
 set backup
 set diffexpr=MyDiff()
 set helplang=En
-set history=50
+set history=200
 set hlsearch
 set incsearch
 set keymodel=startsel,stopsel
@@ -18,9 +18,13 @@ set shell=D:/cygwin/bin/bash.exe
 set tabstop=4
 set shiftwidth=4
 set textwidth=72
+set smartcase
 :filetype plugin indent on
-:set guifont=Lucida_Sans_Typewriter:h10:cANSI
+:set guifont=Lucida_Sans_Typewriter:h8:cANSI
 
 syntax enable
-set background=dark
-colorscheme material-theme
+" set background=dark
+" colorscheme material-theme
+
+au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
+
