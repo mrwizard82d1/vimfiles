@@ -20,7 +20,7 @@ set shiftwidth=4
 set textwidth=72
 set smartcase
 :filetype plugin indent on
-:set guifont=Lucida_Sans_Typewriter:h8:cANSI
+:set guifont=Lucida_Sans_Typewriter:h10:cANSI
 
 syntax enable
 " set background=dark
